@@ -1,0 +1,28 @@
+{
+  "store": {
+    "storeCode": "SAMPLE_001",
+    "storeName": "示例麦当劳餐厅",
+    "beType": 1,
+    "orderType": 1
+  },
+  "menu": [
+    {"productCode": "P_BURGER_01", "name": "双层猪柳蛋麦满分", "price_cent": 2100, "category": "主餐"},
+    {"productCode": "P_COFFEE_01", "name": "麦咖啡冰美式中杯", "price_cent": 1900, "category": "饮品"},
+    {"productCode": "P_SNACK_01", "name": "脆薯饼", "price_cent": 850, "category": "小食"},
+    {"productCode": "P_DESSERT_01", "name": "人气麦旋风", "price_cent": 1450, "category": "甜品"}
+  ],
+  "available_coupons": [
+    {
+      "name": "9.9元中杯冰美式券",
+      "bindProductCode": "P_COFFEE_01",
+      "facePrice_cent": 990,
+      "note": "仅限指定饮品商品"
+    },
+    {
+      "name": "满50减10券",
+      "bindRule": "total >= 5000",
+      "discount_cent": 1000,
+      "note": "订单满 50 元可用"
+    }
+  ]
+}
